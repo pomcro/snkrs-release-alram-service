@@ -1,0 +1,15 @@
+#green
+version: "3"
+services:
+  nuxtjs:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - /usr/app/node_modules
+      - ./:/usr/app
+    restart: unless-stopped
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"

@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Roboto);
+html,
+body {
+  margin: auto;
+  max-width: 430px;
+  letter-spacing: -0.01rem;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto,
+    AppleSDGothicNeo-Regular, NanumBarunGothic, NanumGothic, "나눔고딕",
+    "Segoe UI", Helveica, Arial, Malgun Gothic, Dotum, sans-serif;
+}
+body.slideout-panel-open,
+body.modal-open {
+  overflow: hidden;
+}
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a:hover, a:visited, a:link, a:active,
+a {
+  color: black;
+  outline: none;
+  text-decoration: none!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+input,
+select,
+textarea {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  resize: none;
+	outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: 90%;
+  margin: 0;
+  cursor: pointer;
+  border: 0;
+	outline: none;
+}
+
+[class*="ico-"] {
+  width: 24px;
+  height: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto,
+    AppleSDGothicNeo-Regular, NanumBarunGothic, NanumGothic, "나눔고딕",
+    "Segoe UI", Helveica, Arial, Malgun Gothic, Dotum, sans-serif;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Thin.eot);
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Thin.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/HelveticaNeue/HelveticaNeue-Thin.woff) format("woff");
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  font-style: bold;
+  font-weight: 700;
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Bold.eot);
+  src: url(../fonts/HelveticaNeue/HelveticaNeue-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/HelveticaNeue/HelveticaNeue-Bold.woff) format("woff");
+}
